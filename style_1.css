@@ -1,0 +1,45 @@
+body{
+    background-color: powderblue;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+p{
+    border: 2px solid yellowgreen;
+    padding: 10px;
+    margin: 2px;
+}
+
+div.header_1{
+    background-color: yellowgreen;
+    padding: 10px;
+    /* display: inline; */
+    margin: 2px;
+}
+
+div.header_2{
+    background-color: lightgreen;
+    padding: 10px;
+    /* display: flex; */
+    margin: 2px;
+}   
+
+div.lists_1{
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 2px;
+}
+
+.newcastle{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 2px;
+}
+.gateshed{
+    background-color: red;
+    padding: 10px;
+    margin: 2px;
+}
