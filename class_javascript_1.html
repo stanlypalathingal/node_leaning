@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        class Javascript
+    </head>
+    <body>  
+        <h1> use of classes in javascript</h1>
+        <p> click the button to hide the countries</p>
+        <button onclick="myFunction()">Hide countries</button>
+        <h2 class ="City">London</h2>
+        <p>London is the capital of England</p>
+        <h2 class ="City">Paris</h2>
+        <p>Paris is the capital of France</p>
+        <h2 class ="City">Tokyo</h2>
+        <p>Tokyo is the capital of Japan</p>
+
+        <script>
+            function myFunction(){
+                var x = document.getElementsByClassName("City");
+                for (var i=0; i<x.length; i++){
+                    x[i].style.display = "none";
+                }   
+            }
+        </script>
+           
+    </body>
+</html>
